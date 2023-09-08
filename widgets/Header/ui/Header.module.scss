@@ -1,0 +1,28 @@
+.header {
+	background: var(--primary-bg-color);
+
+	&_container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 67px;
+
+		font-size: calc(1.125rem + ((1vw - 9px) * 0.7407));
+		color: white;
+		display: flex;
+
+		.logo {
+			width: 30%;
+		}
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.header {
+		&_container {
+			.logo {
+				width: 18%;
+			}
+		}
+	}
+}

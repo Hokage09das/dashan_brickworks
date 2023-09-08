@@ -1,0 +1,20 @@
+.main_container {
+	background: var(--primary-bg-color);
+	padding: 52.5px 0;
+
+	.card_container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		row-gap: 66px;
+	}
+	.title {
+		margin-bottom: 56px;
+		font-size: 36px;
+		color: #ffffff;
+	}
+
+	.card {
+		width: 30%;
+	}
+}

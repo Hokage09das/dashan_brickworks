@@ -1,0 +1,67 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding: 70px 0 140px;
+
+	.title_container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 40%;
+
+		.title {
+			font-size: calc(4.375rem + ((1vw - 14.4px) * 6.1224));
+			font-weight: 500;
+			font-family: "Oswald", sans-serif;
+			letter-spacing: 0.2rem;
+		}
+		.subtitle {
+			font-size: calc(1.75rem + ((1vw - 14.4px) * 1.2245));
+			font-family: "Inter", sans-serif;
+		}
+		.contact_btn {
+			align-self: flex-start;
+			background: var(--primary-btn-color);
+
+			border: none;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 10px 18px;
+			border-radius: 12px;
+
+			font-size: calc(1.625rem + ((1vw - 14.4px) * 0.8163));
+			color: #ffffff;
+			.btn_icon {
+				width: 13%;
+				height: auto;
+			}
+		}
+	}
+
+	.img_container {
+		width: 60%;
+
+		.image {
+			width: 100%;
+			height: auto;
+			object-fit: contain;
+		}
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.container {
+		.title_container {
+			.title {
+				font-size: 36px;
+			}
+			.subtitle {
+				font-size: 24px;
+			}
+			.contact_btn {
+				font-size: 22px;
+			}
+		}
+	}
+}
