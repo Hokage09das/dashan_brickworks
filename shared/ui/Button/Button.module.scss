@@ -12,3 +12,17 @@
 .button .button_secondary {
 	background: var(--primary-bg-color);
 }
+
+.button:hover {
+	-webkit-box-shadow: 0px 0px 10px 6px rgba(255, 108, 25, 0.33);
+	-moz-box-shadow: 0px 0px 10px 6px rgba(255, 108, 25, 0.33);
+	box-shadow: 0px 0px 10px 6px rgba(255, 108, 25, 0.33);
+	border: 1px solid white;
+}
+
+.button_secondary:hover {
+	-webkit-box-shadow: 0px 0px 10px 6px rgba(103, 138, 214, 0.33);
+	-moz-box-shadow: 0px 0px 10px 6px rgba(103, 138, 214, 0.33);
+	box-shadow: 0px 0px 10px 6px rgba(103, 138, 214, 0.33);
+	border: 1px solid white;
+}

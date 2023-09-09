@@ -1,0 +1,47 @@
+.brick_form {
+	.title_container {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+		font-size: calc(2.25rem + ((1vw - 14.4px) * 0.8163));
+		font-weight: 600;
+		font-family: "Oswald", sans-serif;
+		margin-bottom: 100px;
+
+		.image {
+			width: 80px;
+			height: 80px;
+		}
+	}
+	.brick_box {
+		display: flex;
+		flex-direction: column;
+		gap: 52px;
+
+		.input_container {
+			display: flex;
+			gap: 100px;
+			.input_title {
+				width: 40%;
+				font-family: "Inter", sans-serif;
+				font-size: 28px;
+				font-weight: 500;
+			}
+
+			.input_box {
+				width: 50%;
+				display: flex;
+				align-items: center;
+				gap: 10px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.brick_form {
+		.title_container {
+			font-size: 32px;
+		}
+	}
+}

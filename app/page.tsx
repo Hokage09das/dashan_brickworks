@@ -6,6 +6,7 @@ import { MapSection } from "@/widgets/MapSection";
 import { MainSection } from "@/widgets/MainSection";
 import { InfoSection } from "@/widgets/InfoSection/";
 import { ServiceSection } from "@/widgets/ServiceSection";
+import { CalculatorSection } from "@/widgets/CalculatorSection";	
 import { CertificationSection } from "@/widgets/CertificationSection";
 import { AplicationFormSection } from "@/widgets/AplicationFormSection";
 
@@ -19,6 +20,7 @@ export default function Home() {
 				<MainSection />
 				<ServiceSection />
 				<InfoSection />
+				<CalculatorSection />
 				<CertificationSection />
 				<AplicationFormSection />
 				<MapSection />
