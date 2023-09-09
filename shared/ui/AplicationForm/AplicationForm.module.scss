@@ -1,0 +1,25 @@
+.aplication_form {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+
+	.inputs_box {
+		display: flex;
+		gap: 26px;
+		.input_container {
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			gap: 40px;
+		}
+		.text_area {
+			width: 50%;
+			resize: none;
+			padding: 9px 0 9px 25px;
+			border-radius: 12px;
+			font-family: "Inter", sans-serif;
+			font-size: 24px;
+			border: 1px solid #c7c7c7;
+		}
+	}
+}

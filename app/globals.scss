@@ -6,4 +6,21 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scrollbar-width: auto;
+	scrollbar-color: #ff6c19 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #ff6c19;
+	border-radius: 8px;
+	border: 1px solid #ffffff;
 }

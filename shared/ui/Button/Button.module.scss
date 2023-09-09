@@ -1,0 +1,14 @@
+.button {
+	border: none;
+	border-radius: 12px;
+	text-align: center;
+	padding: 12px;
+	background: var(--primary-btn-color);
+	color: white;
+	font-family: "Inter", sans-serif;
+	font-size: 26px;
+}
+
+.button .button_secondary {
+	background: var(--primary-bg-color);
+}

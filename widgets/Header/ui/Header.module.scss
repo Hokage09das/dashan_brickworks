@@ -12,7 +12,14 @@
 		display: flex;
 
 		.logo {
-			width: 30%;
+			width: 40%;
+			font-size: 20px;
+			display: flex;
+			align-items: center;
+			gap: 10px;
+		}
+		.navigation {
+			width: 60%;
 		}
 	}
 }
@@ -21,7 +28,14 @@
 	.header {
 		&_container {
 			.logo {
-				width: 18%;
+				width: 25%;
+
+				img {
+					display: none;
+				}
+			}
+			.navigation {
+				width: 70%;
 			}
 		}
 	}

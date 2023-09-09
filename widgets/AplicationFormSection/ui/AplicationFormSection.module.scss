@@ -1,0 +1,48 @@
+.aplication_form_section {
+	padding: 120px 0;
+	.aplication_form_container {
+		display: flex;
+		justify-content: space-between;
+
+		.image_container {
+			width: 35%;
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.form_container {
+			padding-top: 30px;
+			width: 70%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			gap: 40px;
+
+			.title {
+				font-size: calc(2.725rem + ((1vw - 14.4px) * 2.0408));
+			}
+			.desc {
+				font-size: 28px;
+				font-family: "Inter", sans-serif;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.aplication_form_section {
+		.aplication_form_container {
+			.image_container {
+			}
+			.form_container {
+				.title {
+					font-size: 32px;
+				}
+				.desc {
+					font-size: 28px;
+				}
+			}
+		}
+	}
+}

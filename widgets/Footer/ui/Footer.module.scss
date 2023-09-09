@@ -1,0 +1,29 @@
+.footer {
+	background: var(--primary-bg-color);
+	padding: 57px 0 66px;
+
+	&_content_container {
+		display: flex;
+
+		.image_box {
+			width: 30%;
+		}
+
+		.text_box {
+			width: 70%;
+			font-family: "Oswald", sans-serif;
+			&_content {
+				list-style: none;
+
+				color: white;
+				font-size: 24px;
+				font-weight: 600;
+				display: flex;
+				flex-direction: column;
+				flex-wrap: wrap;
+				gap: 30px;
+				height: 120px;
+			}
+		}
+	}
+}

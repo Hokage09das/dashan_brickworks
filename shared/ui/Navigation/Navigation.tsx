@@ -30,7 +30,14 @@ export const Navigation = () => {
 	return (
 		<nav className={classes.navbar}>
 			{navbar.map((el) => {
-				return <a href={el.id}>{el.title}</a>;
+				return (
+					<a
+						href={el.id}
+						className={classes.a}
+					>
+						{el.title}
+					</a>
+				);
 			})}
 		</nav>
 	);

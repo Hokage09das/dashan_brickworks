@@ -16,8 +16,11 @@ export const Header = () => {
 							src={logo}
 							alt='logo'
 						/>
+						ДаШань Кирпичный Завод
 					</div>
-					<Navigation />
+					<div className={classes.navigation}>
+						<Navigation />
+					</div>
 				</div>
 			</Layout>
 		</header>

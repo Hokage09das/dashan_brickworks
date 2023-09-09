@@ -8,13 +8,33 @@
 		justify-content: space-between;
 		row-gap: 66px;
 	}
-	.title {
-		margin-bottom: 56px;
-		font-size: 36px;
-		color: #ffffff;
+	.title_container {
+		display: flex;
+		justify-content: space-between;
+		.title {
+			margin-bottom: 56px;
+			font-size: 36px;
+			color: #ffffff;
+		}
+		.image_container {
+			display: none;
+		}
 	}
 
 	.card {
 		width: 30%;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.main_container {
+		.title_container {
+			.image_container {
+				display: flex;
+			}
+		}
+		.card {
+			width: 45%;
+		}
 	}
 }
