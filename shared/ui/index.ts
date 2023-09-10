@@ -6,6 +6,9 @@ import { Navigation } from "./Navigation/Navigation";
 import { ServiceCard } from "./ServiceCard/ServiceCard";
 import { AplicationForm } from "./AplicationForm/AplicationForm";
 import { CalculatorBrickForm } from "./CalculatorBrickForm/CalculatorBrickForm";
+import { CalculatorWindowForm } from "./CalculatorWIndowForm/CalculatorWindowForm";
+import { CalculatorWindowList } from "./CalculatorWindowList/CalculatorWindowList";
+import { CalculatorBrickResult } from "./CalculatorBrickResult/CalculatorBrickResult";
 
 export {
 	Input,
@@ -16,4 +19,7 @@ export {
 	ServiceCard,
 	AplicationForm,
 	CalculatorBrickForm,
+	CalculatorWindowForm,
+	CalculatorWindowList,
+	CalculatorBrickResult,
 };

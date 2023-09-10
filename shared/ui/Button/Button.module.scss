@@ -7,10 +7,19 @@
 	color: white;
 	font-family: "Inter", sans-serif;
 	font-size: 26px;
+	cursor: pointer;
 }
 
-.button .button_secondary {
+.button_secondary {
 	background: var(--primary-bg-color);
+	border: none;
+	border-radius: 12px;
+	text-align: center;
+	padding: 12px;
+	color: white;
+	font-family: "Inter", sans-serif;
+	font-size: 26px;
+	cursor: pointer;
 }
 
 .button:hover {

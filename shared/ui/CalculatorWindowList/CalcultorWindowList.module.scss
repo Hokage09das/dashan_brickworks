@@ -1,0 +1,63 @@
+.window_list_container {
+	display: flex;
+	border: 1px solid black;
+	border-radius: 12px;
+	padding: 25px 50px 0;
+	min-height: 200px;
+	margin-top: 50px;
+	gap: 30px;
+
+	.window_list {
+		position: relative;
+		height: 140px;
+		width: 130px;
+		list-style: none;
+		font-family: "Inter", sans-serif;
+		font-size: 18px;
+		font-weight: 500;
+
+		.window {
+			width: 110px;
+			height: auto;
+		}
+
+		.height {
+			position: absolute;
+			right: -20px;
+			top: 60px;
+			transform: rotate(90deg);
+		}
+
+		.width {
+			position: absolute;
+			top: -20px;
+			left: 35px;
+		}
+
+		.count {
+			position: absolute;
+			bottom: -20px;
+			left: 45px;
+		}
+
+		.delete_icon {
+			display: none;
+			position: absolute;
+			top: -20px;
+			right: -10px;
+			cursor: pointer;
+			transform: scale(0.84);
+			transition: all 0.3s ease-in-out;
+		}
+
+		.delete_icon:hover {
+			transform: scale(1);
+		}
+	}
+
+	.window_list:hover {
+		.delete_icon {
+			display: flex;
+		}
+	}
+}

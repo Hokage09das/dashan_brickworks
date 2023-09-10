@@ -1,12 +1,17 @@
 "use client";
-import { CalculatorBrickForm, Layout } from "@/shared/ui";
 import React from "react";
+import {
+	CalculatorBrickForm,
+	CalculatorBrickResult,
+	Layout,
+} from "@/shared/ui";
 
 export const CalculatorSection = () => {
 	return (
-		<section>
+		<section id='online_calculator'>
 			<Layout>
 				<CalculatorBrickForm />
+				<CalculatorBrickResult />
 			</Layout>
 		</section>
 	);

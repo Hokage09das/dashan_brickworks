@@ -1,0 +1,31 @@
+.result_container {
+	display: flex;
+	flex-direction: column;
+	padding: 60px 0;
+	border-top: 1px solid black;
+	font-family: "Inter", sans-serif;
+	font-size: 28px;
+
+	.title {
+		font-weight: 500;
+		margin-bottom: 52px;
+	}
+	.content_box {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+		padding-left: 30px;
+		.content {
+			list-style: circle;
+			display: flex;
+			justify-content: space-between;
+			.desc {
+				width: 40%;
+			}
+			.result {
+				width: 30%;
+				color: var(--primary-btn-color);
+			}
+		}
+	}
+}

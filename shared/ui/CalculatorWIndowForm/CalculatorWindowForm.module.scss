@@ -1,7 +1,7 @@
-.brick_form {
+.window_form {
 	display: flex;
-	margin-bottom: 80px;
 	flex-direction: column;
+	gap: 50px;
 	.title_container {
 		display: flex;
 		align-items: center;
@@ -16,16 +16,14 @@
 			height: 80px;
 		}
 	}
-	.brick_box {
+	.window_box {
 		display: flex;
 		flex-direction: column;
 		gap: 52px;
-		margin-bottom: 110px;
 
 		.input_container {
 			display: flex;
 			justify-content: space-between;
-
 			.input_title {
 				width: 40%;
 				font-family: "Inter", sans-serif;
@@ -44,7 +42,7 @@
 }
 
 @media screen and (max-width: 950px) {
-	.brick_form {
+	.window_form {
 		.title_container {
 			font-size: 32px;
 		}

@@ -32,11 +32,11 @@
 			.certificat_container {
 				position: relative;
 				width: 250px;
-				transform: scale(0.84);
-				transition: all 0.2s ease-in-out;
 				display: flex;
 				align-items: center;
 				justify-content: center;
+				transform: scale(0.84);
+				transition: all 0.2s ease-in-out;
 
 				.vector {
 					height: 418px;
