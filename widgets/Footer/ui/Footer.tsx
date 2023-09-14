@@ -16,6 +16,7 @@ export const Footer = () => {
 						<Image
 							alt='Логотип'
 							src={white_logo}
+							className={cls.image}
 						/>
 					</div>
 					<div className={cls.text_box}>

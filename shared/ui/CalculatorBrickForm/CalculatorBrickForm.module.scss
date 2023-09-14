@@ -39,7 +39,20 @@
 				align-items: center;
 				gap: 10px;
 			}
+
+			.input_box_checkbox {
+				width: 50%;
+				display: flex;
+				align-items: center;
+				gap: 10px;
+			}
 		}
+	}
+
+	button {
+		padding: 12px 137px;
+		align-self: flex-end;
+		margin-top: 50px;
 	}
 }
 
@@ -47,6 +60,63 @@
 	.brick_form {
 		.title_container {
 			font-size: 32px;
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.brick_form {
+		display: flex;
+		margin-bottom: 80px;
+		flex-direction: column;
+		.title_container {
+			display: flex;
+			align-items: center;
+			gap: 15px;
+			font-size: calc(2.25rem + ((1vw - 14.4px) * 0.8163));
+			font-weight: 600;
+			font-family: "Oswald", sans-serif;
+			margin-bottom: 100px;
+
+			.image {
+				width: 80px;
+				height: 80px;
+			}
+		}
+		.brick_box {
+			display: flex;
+			gap: 52px;
+			margin-bottom: 110px;
+
+			.input_container {
+				display: flex;
+				justify-content: space-between;
+				flex-direction: column;
+				gap: 15px;
+
+				.input_title {
+					width: 100%;
+					font-family: "Inter", sans-serif;
+					font-size: 28px;
+					font-weight: 500;
+				}
+
+				.input_box {
+					width: 100%;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					gap: 10px;
+				}
+			}
+		}
+
+		button {
+			padding: 12px 0;
+			align-self: auto;
+			text-align: center;
+			margin-top: 50px;
+			width: 100%;
 		}
 	}
 }

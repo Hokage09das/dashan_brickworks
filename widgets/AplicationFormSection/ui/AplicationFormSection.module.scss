@@ -34,8 +34,10 @@
 	.aplication_form_section {
 		.aplication_form_container {
 			.image_container {
+				display: none;
 			}
 			.form_container {
+				width: 100%;
 				.title {
 					font-size: 32px;
 				}

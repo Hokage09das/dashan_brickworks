@@ -61,3 +61,11 @@
 		}
 	}
 }
+
+@media screen and (max-width: 700px) {
+	.window_list_container {
+		overflow: auto;
+		.window_list {
+		}
+	}
+}

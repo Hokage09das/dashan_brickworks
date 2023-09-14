@@ -29,3 +29,27 @@
 		}
 	}
 }
+
+@media screen and (max-width: 700px) {
+	.result_container {
+		.title {
+			font-weight: 500;
+			margin-bottom: 52px;
+		}
+		.content_box {
+			padding-left: 0px;
+			.content {
+				list-style: circle;
+				display: flex;
+				justify-content: space-between;
+				.desc {
+					width: 55%;
+				}
+				.result {
+					width: 30%;
+					color: var(--primary-btn-color);
+				}
+			}
+		}
+	}
+}

@@ -8,7 +8,10 @@ import cls from "./MapSection.module.scss";
 
 export const MapSection = () => {
 	return (
-		<section className={cls.map_section}>
+		<section
+			className={cls.map_section}
+			id='contact'
+		>
 			<Layout>
 				<div className={cls.map_container}>
 					<div className={cls.contact_box}>
@@ -33,6 +36,9 @@ export const MapSection = () => {
 						width='100%'
 						height='503'
 					></iframe>
+					<div className={cls.media_title}>
+						<p className={cls.title}> Контактная информация</p>
+					</div>
 				</div>
 			</Layout>
 		</section>

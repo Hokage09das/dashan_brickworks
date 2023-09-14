@@ -2,7 +2,9 @@
 	padding-bottom: 153px;
 	.map_container {
 		display: flex;
-
+		.media_title {
+			display: none;
+		}
 		.contact_box {
 			display: flex;
 			flex-direction: column;
@@ -46,6 +48,50 @@
 			border-radius: 0 12px 12px 0;
 			outline: none;
 			border: 1px solid #ebebeb;
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.map_section {
+		padding-bottom: 60px;
+		.map_container {
+			display: flex;
+			flex-direction: column-reverse;
+			gap: 30px;
+			.media_title {
+				display: flex;
+				font-family: "Oswald", sans-serif;
+				font-size: 28px;
+				font-weight: 600;
+				width: 40%;
+			}
+
+			.map {
+				outline: none;
+				border: 1px solid #ebebeb;
+				border-radius: 0;
+			}
+
+			.contact_box {
+				width: 100%;
+				padding: 13px;
+
+				.title {
+					display: none;
+				}
+				.list_container {
+					padding: 13px;
+					gap: 52px;
+
+					.list {
+						img {
+							width: 30px;
+							height: 30px;
+						}
+					}
+				}
+			}
 		}
 	}
 }

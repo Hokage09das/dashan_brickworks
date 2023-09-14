@@ -45,6 +45,43 @@
 	.window_form {
 		.title_container {
 			font-size: 32px;
+			margin-bottom: 50px;
+		}
+		.window_box {
+			.input_container {
+				flex-direction: column;
+				gap: 60px;
+				.input_title {
+					width: 100%;
+				}
+				.input_box {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.window_form {
+		.title_container {
+			font-size: 26px;
+		}
+		.window_box {
+			.input_container {
+				flex-direction: column;
+				gap: 60px;
+				.input_title {
+					width: 100%;
+				}
+				.input_box {
+					width: 100%;
+					flex-direction: column;
+				}
+			}
+		}
+		button {
+			width: 100%;
 		}
 	}
 }

@@ -3,6 +3,7 @@ import { Layout } from "./Layout/Layout";
 import { Button } from "./Button/Button";
 import { Checkbox } from "./Checkbox/Checkbox";
 import { Navigation } from "./Navigation/Navigation";
+import { BurgerMenu } from "./BurgerMenu/BurgerMenu";
 import { ServiceCard } from "./ServiceCard/ServiceCard";
 import { AplicationForm } from "./AplicationForm/AplicationForm";
 import { CalculatorBrickForm } from "./CalculatorBrickForm/CalculatorBrickForm";
@@ -16,6 +17,7 @@ export {
 	Button,
 	Checkbox,
 	Navigation,
+	BurgerMenu,
 	ServiceCard,
 	AplicationForm,
 	CalculatorBrickForm,

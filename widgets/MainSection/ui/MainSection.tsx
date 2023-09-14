@@ -11,31 +11,36 @@ import cls from "./MainSeaction.module.scss";
 export const MainSection = () => {
 	return (
 		<section>
-			<Layout>
-				<article className={cls.container}>
-					<div className={cls.title_container}>
-						<h2 className={cls.title}>Завод по изготовлению кирпичей</h2>
-						<p className={cls.subtitle}>
-							Правильный кирпич – залог долговечности и безопасности
-						</p>
-						<button className={cls.contact_btn}>
+			<article className={cls.container}>
+				<div className={cls.title_container}>
+					<h2 className={cls.title}>Завод по изготовлению кирпичей</h2>
+					<p className={cls.subtitle}>
+						Правильный кирпич – залог долговечности и безопасности
+					</p>
+					<button className={cls.contact_btn}>
+						<a
+							href='#review'
+							className={cls.nav}
+						>
 							Оформить заказ
 							<Image
 								alt='contact'
 								src={phone_icon}
 								className={cls.btn_icon}
 							/>
-						</button>
-					</div>
-					<div className={cls.img_container}>
-						<Image
-							src={section_1}
-							className={cls.image}
-							alt='human in building'
-						/>
-					</div>
-				</article>
-			</Layout>
+						</a>
+					</button>
+				</div>
+				<div className={cls.img_container}>
+					<h2 className={cls.title_image}>Завод по изготовлению кирпичей</h2>
+
+					<Image
+						src={section_1}
+						className={cls.image}
+						alt='human in building'
+					/>
+				</div>
+			</article>
 		</section>
 	);
 };

@@ -63,7 +63,7 @@ export const CalculatorBrickForm = () => {
 					</div>
 					<div className={cls.input_container}>
 						<p className={cls.input_title}>Рассчитать с раствором (10 мм):</p>
-						<div className={cls.input_box}>
+						<div className={cls.input_box_checkbox}>
 							<Checkbox
 								checked={checked}
 								onChange={onChange}
@@ -78,7 +78,7 @@ export const CalculatorBrickForm = () => {
 					variant={ButtonVariant.primary}
 					className={cls.submit_btn}
 					style={{
-						padding: " 12px 137px",
+						// padding: " 12px 137px",
 						alignSelf: "flex-end",
 						marginTop: "50px",
 					}}

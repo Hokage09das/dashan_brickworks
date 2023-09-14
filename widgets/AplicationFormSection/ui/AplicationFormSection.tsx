@@ -10,7 +10,10 @@ import cls from "./AplicationFormSection.module.scss";
 
 export const AplicationFormSection = () => {
 	return (
-		<section className={cls.aplication_form_section}>
+		<section
+			className={cls.aplication_form_section}
+			id='review'
+		>
 			<Layout>
 				<article className={cls.aplication_form_container}>
 					<div className={cls.image_container}>
