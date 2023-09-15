@@ -13,6 +13,7 @@ export const InfoSection = () => {
 		<section
 			className={cls.info_section}
 			id='about_company'
+			data-aos='fade-up'
 		>
 			<Layout>
 				<div className={cls.container}>

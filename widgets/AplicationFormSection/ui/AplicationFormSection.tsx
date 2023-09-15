@@ -13,6 +13,7 @@ export const AplicationFormSection = () => {
 		<section
 			className={cls.aplication_form_section}
 			id='review'
+			data-aos='fade-up'
 		>
 			<Layout>
 				<article className={cls.aplication_form_container}>

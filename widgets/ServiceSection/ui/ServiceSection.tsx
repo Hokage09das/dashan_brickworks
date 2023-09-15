@@ -14,6 +14,7 @@ export const ServiceSection = () => {
 		<section
 			id='services'
 			className={cls.main_container}
+			data-aos='fade-up'
 		>
 			<Layout>
 				<article>

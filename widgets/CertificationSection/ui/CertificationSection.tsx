@@ -8,7 +8,10 @@ import vector from "@/shared/assets/images/vector.png";
 
 export const CertificationSection = () => {
 	return (
-		<section className={cls.certification_section}>
+		<section
+			className={cls.certification_section}
+			data-aos='fade-up'
+		>
 			<Layout>
 				<p className={cls.certification_title}>Сертификация</p>
 			</Layout>

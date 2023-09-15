@@ -8,7 +8,10 @@ import {
 
 export const CalculatorSection = () => {
 	return (
-		<section id='online_calculator'>
+		<section
+			id='online_calculator'
+			data-aos='fade-up'
+		>
 			<Layout>
 				<CalculatorBrickForm />
 				<CalculatorBrickResult />

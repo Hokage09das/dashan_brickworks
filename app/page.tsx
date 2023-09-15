@@ -1,4 +1,6 @@
 "use client";
+import { useEffect } from "react";
+import Aos from "aos";
 
 import styles from "./page.module.css";
 
@@ -12,9 +14,14 @@ import { CalculatorSection } from "@/widgets/CalculatorSection";
 import { CertificationSection } from "@/widgets/CertificationSection";
 import { AplicationFormSection } from "@/widgets/AplicationFormSection";
 
+import "aos/dist/aos.css";
 import "./globals.scss";
 
 export default function Home() {
+	useEffect(() => {
+		Aos.init({ duration: 2000 });
+	}, []);
+
 	return (
 		<div className={styles.main}>
 			<Header />

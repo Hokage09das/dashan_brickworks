@@ -7,7 +7,6 @@ import logo from "@/shared/assets/icons/logo.svg";
 
 import classes from "./Header.module.scss";
 import Image from "next/image";
-import { clearScreenDown } from "readline";
 
 export const Header = () => {
 	const [isBurgerMenu, setIsBurgerMenu] = useState(false);

@@ -11,6 +11,7 @@ export const MapSection = () => {
 		<section
 			className={cls.map_section}
 			id='contact'
+			data-aos='fade-up'
 		>
 			<Layout>
 				<div className={cls.map_container}>

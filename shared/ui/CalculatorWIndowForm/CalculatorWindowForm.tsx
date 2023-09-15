@@ -37,6 +37,7 @@ export const CalculatorWindowForm = () => {
 			<Button
 				variant={ButtonVariant.secondary}
 				style={{ alignSelf: "flex-end" }}
+				className={cls.button}
 			>
 				Добавить еще окно
 			</Button>

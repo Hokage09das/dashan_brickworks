@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	padding: 70px 80px 140px;
+	background-color: white;
 
 	.title_container {
 		display: flex;
@@ -19,33 +20,22 @@
 			font-size: calc(1.75rem + ((1vw - 14.4px) * 1.2245));
 			font-family: "Inter", sans-serif;
 		}
-		.contact_btn {
-			align-self: flex-start;
-			background: var(--primary-btn-color);
-
-			border: none;
-
-			padding: 10px 18px;
-			border-radius: 12px;
-
-			font-size: calc(1.625rem + ((1vw - 14.4px) * 0.8163));
-			.nav {
-				text-align: center;
-				text-decoration: none;
-				color: white;
-				display: flex;
-				gap: 10px;
-				align-items: center;
-			}
-			.btn_icon {
-				width: 13%;
-				height: auto;
-			}
+		.nav {
+			text-align: center;
+			text-decoration: none;
+			color: white;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+		}
+		.btn_icon {
+			width: 13%;
+			height: auto;
 		}
 	}
 
 	.img_container {
-		width: 60%;
+		width: 55%;
 
 		.title_image {
 			display: none;
