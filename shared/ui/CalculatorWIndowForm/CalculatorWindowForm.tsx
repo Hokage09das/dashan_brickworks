@@ -23,7 +23,11 @@ export const CalculatorWindowForm = () => {
 				<div className={cls.input_container}>
 					<p className={cls.input_title}>Параметры окон (см)</p>
 					<div className={cls.input_box}>
-						<Input type='number' />X
+						<Input
+							type='number'
+							placeholder='Длина'
+						/>
+						X
 						<Input type='number' />
 					</div>
 				</div>
