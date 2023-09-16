@@ -41,11 +41,9 @@ export const InfoSection = () => {
 						</div>
 					</article>
 					<div>
-						<h3 className={cls.brickworks}>Кирпичи нашего завода</h3>
-
 						<article className={cls.info_card}>
 							<div className={cls.info_card_second_container_text}>
-								<p className={cls.title}>Лейлекский кирпичный завод</p>
+								<p className={cls.title}>Кирпичи нашего завода</p>
 								<p className={cls.subtitle}>
 									Качество и объемы продукции постоянно растет. Завод может
 									похвастаться своим высоким качеством, а также полным

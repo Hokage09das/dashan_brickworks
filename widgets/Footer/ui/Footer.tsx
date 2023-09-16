@@ -22,7 +22,7 @@ export const Footer = () => {
 					<div className={cls.text_box}>
 						<ul className={cls.text_box_content}>
 							{footerInfo.map((item) => {
-								return <li>{item.title}</li>;
+								return <li key={item.title}>{item.title}</li>;
 							})}
 						</ul>
 					</div>

@@ -20,6 +20,11 @@
 			font-size: calc(1.75rem + ((1vw - 14.4px) * 1.2245));
 			font-family: "Inter", sans-serif;
 		}
+		.contact_btn {
+			// font-size: 22px;
+			align-self: flex-start;
+			padding: 12px 77px;
+		}
 		.nav {
 			text-align: center;
 			text-decoration: none;
@@ -36,6 +41,7 @@
 
 	.img_container {
 		width: 55%;
+		height: auto;
 
 		.title_image {
 			display: none;
@@ -45,8 +51,8 @@
 			border-radius: 12px;
 
 			width: 100%;
-			height: auto;
-			object-fit: contain;
+			height: 100%;
+			object-fit: cover;
 		}
 	}
 }
@@ -61,9 +67,11 @@
 			}
 			.subtitle {
 				font-size: 24px;
+				margin-bottom: 20px;
 			}
 			.contact_btn {
 				font-size: 22px;
+				padding: 12px 45px;
 			}
 		}
 	}

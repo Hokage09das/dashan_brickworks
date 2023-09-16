@@ -49,8 +49,15 @@ export const CalculatorBrickForm = () => {
 							Укажите периметр наружных стен (м):
 						</p>
 						<div className={cls.input_box}>
-							<Input type='number' />X
-							<Input type='number' />
+							<Input
+								type='number'
+								placeholder='Длина'
+							/>
+							X
+							<Input
+								type='number'
+								placeholder='Ширина'
+							/>
 						</div>
 					</div>
 					<div className={cls.input_container}>

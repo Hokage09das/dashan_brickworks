@@ -10,7 +10,7 @@ import { ButtonVariant } from "../Button/types";
 
 export const CalculatorWindowForm = () => {
 	return (
-		<form className={cls.window_form}>
+		<div className={cls.window_form}>
 			<div className={cls.title_container}>
 				<Image
 					src={window_icon}
@@ -41,6 +41,6 @@ export const CalculatorWindowForm = () => {
 			>
 				Добавить еще окно
 			</Button>
-		</form>
+		</div>
 	);
 };

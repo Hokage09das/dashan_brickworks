@@ -29,9 +29,11 @@ export const ServiceSection = () => {
 					</div>
 					<div className={cls.card_container}>
 						{serviceData.map((item, index) => (
-							<div className={cls.card}>
+							<div
+								className={cls.card}
+								key={index}
+							>
 								<ServiceCard
-									key={index}
 									img={item.img}
 									title={item.title}
 									description={item.desc}

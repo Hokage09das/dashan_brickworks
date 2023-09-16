@@ -34,6 +34,7 @@ export const Navigation = () => {
 					<a
 						href={el.id}
 						className={classes.a}
+						key={el.id}
 					>
 						{el.title}
 					</a>

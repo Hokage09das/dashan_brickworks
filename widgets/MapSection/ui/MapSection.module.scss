@@ -52,6 +52,57 @@
 	}
 }
 
+@media screen and (max-width: 850px) {
+	.map_section {
+		padding-bottom: 60px;
+		.map_container {
+			display: flex;
+			flex-direction: column;
+			gap: 30px;
+			.media_title {
+				// display: flex;
+				font-family: "Oswald", sans-serif;
+				font-size: 28px;
+				font-weight: 600;
+				width: 40%;
+			}
+
+			.map {
+				outline: none;
+				border: 1px solid #ebebeb;
+				border-radius: 0;
+			}
+
+			.contact_box {
+				width: 100%;
+				padding: 13px;
+
+				.title {
+					margin-bottom: 60px;
+					padding: 20px 0 0 40px;
+					font-size: 32px;
+				}
+				.list_container {
+					padding: 13px;
+					// gap: 52px;
+					display: flex;
+					flex-direction: column;
+					flex-wrap: wrap;
+					height: 200px;
+
+					.list {
+						width: 40%;
+						img {
+							width: 30px;
+							height: 30px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
 @media screen and (max-width: 600px) {
 	.map_section {
 		padding-bottom: 60px;

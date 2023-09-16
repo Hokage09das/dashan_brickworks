@@ -20,7 +20,10 @@ export const MapSection = () => {
 						<ul className={cls.list_container}>
 							{mapInformation.map(({ title, icon }) => {
 								return (
-									<li className={cls.list}>
+									<li
+										className={cls.list}
+										key={title}
+									>
 										<Image
 											src={icon}
 											alt='title'
