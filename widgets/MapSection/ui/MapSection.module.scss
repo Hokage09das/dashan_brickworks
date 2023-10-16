@@ -132,10 +132,16 @@
 					display: none;
 				}
 				.list_container {
-					padding: 13px;
-					gap: 52px;
+					// padding: 13px;
+					// gap: 52px;
+					// display: flex;
+					// flex-direction: column;
+					flex-wrap: nowrap;
+					height: auto;
 
 					.list {
+						width: 100%;
+
 						img {
 							width: 30px;
 							height: 30px;
